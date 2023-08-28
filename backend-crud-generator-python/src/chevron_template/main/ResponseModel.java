@@ -7,7 +7,6 @@ import lombok.EqualsAndHashCode;
 
 @Data
 @EqualsAndHashCode(callSuper=true)
-public class {{capitalize_identifier}}ResponseModel extends RepresentationModel<{{capitalize_identifier}}ResponseModel> {
-  protected String id;
+public class {{capitalize_identifier}}ResponseModel extends ResponseModel<{{capitalize_identifier}}ResponseModel, String> {
 
 }
