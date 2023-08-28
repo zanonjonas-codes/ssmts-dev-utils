@@ -1,6 +1,7 @@
 package com.zanonjonascodes.ssmts.{{lower_identifier}};
 
 import org.springframework.hateoas.RepresentationModel;
+import com.zanonjonascodes.ssmts.core.rest.crud.ResponseModel;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
